@@ -1,0 +1,12 @@
+{
+  "name": "development-test-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sass": "sass assets/scss/style.scss assets/css/style.css --style=expanded",
+    "sass:watch": "sass --watch assets/scss/style.scss assets/css/style.css --style=expanded"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
